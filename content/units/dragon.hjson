@@ -1,0 +1,26 @@
+type: flying
+name: dragon
+displayName: Dragon
+description: A majestic flying dragon that breathes fire.
+health: 800
+speed: 2.5
+armor: 5
+flying: true
+range: 180
+weapons: [
+  {
+    name: fire-breath
+    reload: 40
+    x: 0
+    y: 8
+    shootSound: flame
+    bullet: {
+      type: BulletType
+      damage: 45
+      speed: 4
+      lifetime: 50
+      status: burning
+      statusDuration: 180
+    }
+  }
+]
