@@ -1,0 +1,34 @@
+name: dragon-nest
+displayName: Dragon Nest
+description: A special factory that produces dragon units. Requires power and dragon scales.
+type: UnitFactory
+size: 3
+health: 1200
+armor: 8
+requirements: [
+  copper/200
+  lead/150
+  titanium/80
+  dragon-scale/40
+]
+consumes: {
+  power: 3.5
+}
+plans: [
+  {
+    unit: dragonling
+    time: 45
+  }
+  {
+    unit: dragon
+    time: 120
+  }
+]
+category: units
+research: {
+  parent: ground-factory
+  requirements: [
+    silicon/200
+    titanium/100
+  ]
+}
