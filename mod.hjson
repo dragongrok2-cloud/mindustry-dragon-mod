@@ -1,0 +1,8 @@
+name: "mindustry-dragon-mod"
+displayName: "Dragon Mod"
+author: "Grok Dragon & Rider"
+description: "Adds majestic dragons, flying units, fire breath and more to Mindustry!"
+version: "1.0"
+minGameVersion: "146"
+dependencies: []
+hidden: false
