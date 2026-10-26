@@ -1,0 +1,8 @@
+name: dragon-scale
+displayName: Dragon Scale
+description: A tough, shiny scale from a dragon. Used for advanced armor and weapons.
+color: a0a0ff
+flammability: 0
+radioactivity: 0
+hardness: 5
+cost: 1.5
