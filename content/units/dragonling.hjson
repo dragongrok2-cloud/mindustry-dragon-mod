@@ -1,0 +1,26 @@
+type: flying
+name: dragonling
+displayName: Dragonling
+description: A small young dragon. Fast and agile, but fragile.
+health: 220
+speed: 3.2
+armor: 1
+flying: true
+range: 120
+weapons: [
+  {
+    name: small-flame
+    reload: 25
+    x: 0
+    y: 4
+    shootSound: flame
+    bullet: {
+      type: BulletType
+      damage: 18
+      speed: 3.5
+      lifetime: 40
+      status: burning
+      statusDuration: 90
+    }
+  }
+]
