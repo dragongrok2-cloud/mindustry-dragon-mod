@@ -1,0 +1,11 @@
+# Mindustry mod ignores
+*.jar
+*.zip
+.DS_Store
+Thumbs.db
+*.class
+build/
+out/
+.idea/
+*.iml
+.gradle/
