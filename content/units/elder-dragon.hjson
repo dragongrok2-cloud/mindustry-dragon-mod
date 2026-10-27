@@ -1,0 +1,44 @@
+type: flying
+name: elder-dragon
+displayName: Elder Dragon
+description: An ancient and powerful dragon. Extremely tough and devastating in combat.
+health: 2200
+speed: 1.8
+armor: 18
+flying: true
+range: 260
+hitSize: 28
+weapons: [
+  {
+    name: elder-fire-breath
+    reload: 55
+    x: 0
+    y: 14
+    shootSound: flame
+    bullet: {
+      type: BulletType
+      damage: 95
+      speed: 5
+      lifetime: 70
+      status: burning
+      statusDuration: 300
+      width: 12
+      height: 18
+    }
+  }
+  {
+    name: dragon-roar
+    reload: 180
+    x: 0
+    y: 0
+    shootSound: explosion
+    bullet: {
+      type: BulletType
+      damage: 40
+      splashDamage: 60
+      splashDamageRadius: 40
+      speed: 0
+      lifetime: 10
+    }
+  }
+]
