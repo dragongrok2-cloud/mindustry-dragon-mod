@@ -1,0 +1,29 @@
+name: dragon-forge
+displayName: Dragon Forge
+description: A special forge that smelts dragon scales into powerful alloys and equipment.
+type: GenericCrafter
+size: 3
+health: 950
+armor: 6
+requirements: [
+  copper/180
+  lead/120
+  titanium/90
+  silicon/70
+  dragon-scale/25
+]
+consumes: {
+  power: 4.2
+  items: {
+    items: [
+      dragon-scale/2
+      titanium/1
+    ]
+  }
+}
+outputItem: dragon-alloy/1
+craftTime: 90
+category: crafting
+research: {
+  parent: silicon-smelter
+}
