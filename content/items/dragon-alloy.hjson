@@ -1,0 +1,8 @@
+name: dragon-alloy
+displayName: Dragon Alloy
+description: An ultra-strong alloy forged from dragon scales. Used for the most advanced units and structures.
+color: c070ff
+flammability: 0
+radioactivity: 0
+hardness: 8
+cost: 3.5
